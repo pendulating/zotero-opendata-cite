@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "OpenData Cite",
+	"version": "0.1.0",
+	"description": "Save open data portal datasets (Socrata, CKAN) as Zotero dataset items",
+	"author": "Matt Franchi",
+	"homepage_url": "https://github.com/pendulating/zotero-opendata-cite",
+	"icons": {
+		"48": "content/icons/dataset.svg",
+		"96": "content/icons/dataset.svg"
+	},
+	"applications": {
+		"zotero": {
+			"id": "opendata-cite@mfranchi.net",
+			"update_url": "https://raw.githubusercontent.com/pendulating/zotero-opendata-cite/main/updates.json",
+			"strict_min_version": "9.0",
+			"strict_max_version": "10.0.*"
+		}
+	}
+}

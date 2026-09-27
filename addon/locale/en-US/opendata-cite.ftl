@@ -1,0 +1,22 @@
+opendata-cite-menu-add =
+    .label = Add Open Data Dataset from URL…
+opendata-cite-menu-update =
+    .label = Update Open Data Metadata
+opendata-cite-prompt-title = Add Open Data Dataset
+opendata-cite-prompt-text = Paste one or more dataset URLs (Socrata or CKAN portals), separated by spaces:
+opendata-cite-error-read-only = The selected library can’t be edited. Select a library or collection you can write to and try again.
+opendata-cite-progress-saving = Saving open data datasets…
+opendata-cite-progress-updating = Updating open data metadata…
+opendata-cite-progress-exists = Already in library: { $title }
+
+opendata-cite-pref-date-label = Use this portal date as the item’s Date:
+opendata-cite-pref-date-data-updated =
+    .label = Data last updated (recommended for living datasets)
+opendata-cite-pref-date-metadata-updated =
+    .label = Metadata last updated
+opendata-cite-pref-date-published =
+    .label = First published
+opendata-cite-pref-date-created =
+    .label = Created
+opendata-cite-pref-create-note =
+    .label = Add a “Dataset details” note with API links and the column list

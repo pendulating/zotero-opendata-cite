@@ -1,0 +1,764 @@
+{
+ "id": "inkn-q76z",
+ "name": "Centerline",
+ "assetType": "dataset",
+ "attribution": "Office of Technology and Innovation (OTI)",
+ "averageRating": 0,
+ "category": "City Government",
+ "createdAt": 1735063511,
+ "description": "The NYC Street Centerline (CSCL) is a road-bed representation of New York City streets containing address ranges and other information such as traffic directions, road types, segment types.",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 4828,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 41262181,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1744307237,
+ "publicationGroup": 19720812,
+ "publicationStage": "published",
+ "rowsUpdatedAt": 1790455221,
+ "rowsUpdatedBy": "ft46-kupe",
+ "tableId": 19854636,
+ "totalTimesRated": 0,
+ "viewCount": 12609,
+ "viewLastModified": 1744725948,
+ "viewType": "tabular",
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 608668168,
+   "name": "the_geom",
+   "dataTypeName": "multiline",
+   "description": "",
+   "fieldName": "the_geom",
+   "position": 1,
+   "renderTypeName": "multiline",
+   "tableColumnId": 155993827,
+   "format": {}
+  },
+  {
+   "id": 608668169,
+   "name": "PHYSICALID",
+   "dataTypeName": "number",
+   "description": "",
+   "fieldName": "physicalid",
+   "position": 2,
+   "renderTypeName": "number",
+   "tableColumnId": 155993845,
+   "format": {}
+  },
+  {
+   "id": 608668170,
+   "name": "L_LOW_HN",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "l_low_hn",
+   "position": 3,
+   "renderTypeName": "text",
+   "tableColumnId": 155993834,
+   "format": {}
+  },
+  {
+   "id": 608668171,
+   "name": "L_HIGH_HN",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "l_high_hn",
+   "position": 4,
+   "renderTypeName": "text",
+   "tableColumnId": 155993830,
+   "format": {}
+  },
+  {
+   "id": 608668172,
+   "name": "R_LOW_HN",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "r_low_hn",
+   "position": 5,
+   "renderTypeName": "text",
+   "tableColumnId": 155993853,
+   "format": {}
+  },
+  {
+   "id": 608668173,
+   "name": "R_HIGH_HN",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "r_high_hn",
+   "position": 6,
+   "renderTypeName": "text",
+   "tableColumnId": 155993854,
+   "format": {}
+  },
+  {
+   "id": 608668174,
+   "name": "L_ZIP",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "l_zip",
+   "position": 7,
+   "renderTypeName": "text",
+   "tableColumnId": 155993832,
+   "format": {}
+  },
+  {
+   "id": 608668175,
+   "name": "R_ZIP",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "r_zip",
+   "position": 8,
+   "renderTypeName": "text",
+   "tableColumnId": 155993852,
+   "format": {}
+  },
+  {
+   "id": 608668179,
+   "name": "STATUS",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "status",
+   "position": 12,
+   "renderTypeName": "text",
+   "tableColumnId": 155993828,
+   "format": {}
+  },
+  {
+   "id": 608668180,
+   "name": "BIKE_LANE",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "bike_lane",
+   "position": 13,
+   "renderTypeName": "text",
+   "tableColumnId": 155993838,
+   "format": {}
+  },
+  {
+   "id": 608668185,
+   "name": "TRAFDIR",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "trafdir",
+   "position": 18,
+   "renderTypeName": "text",
+   "tableColumnId": 155993851,
+   "format": {}
+  },
+  {
+   "id": 608668186,
+   "name": "RW_TYPE",
+   "dataTypeName": "number",
+   "description": "",
+   "fieldName": "rw_type",
+   "position": 19,
+   "renderTypeName": "number",
+   "tableColumnId": 155993829,
+   "format": {}
+  },
+  {
+   "id": 608668192,
+   "name": "PRE_TYPE",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "pre_type",
+   "position": 25,
+   "renderTypeName": "text",
+   "tableColumnId": 155993843,
+   "format": {}
+  },
+  {
+   "id": 608668193,
+   "name": "POST_TYPE",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "post_type",
+   "position": 26,
+   "renderTypeName": "text",
+   "tableColumnId": 155993855,
+   "format": {}
+  },
+  {
+   "id": 608668201,
+   "name": "OBJECTID",
+   "dataTypeName": "number",
+   "fieldName": "objectid",
+   "position": 27,
+   "renderTypeName": "number",
+   "tableColumnId": 157930420,
+   "format": {}
+  },
+  {
+   "id": 608668202,
+   "name": "FCC",
+   "dataTypeName": "text",
+   "fieldName": "fcc",
+   "position": 28,
+   "renderTypeName": "text",
+   "tableColumnId": 157930421,
+   "format": {}
+  },
+  {
+   "id": 608668203,
+   "name": "Left side Block Face ID",
+   "dataTypeName": "number",
+   "fieldName": "l_blockfaceid",
+   "position": 29,
+   "renderTypeName": "number",
+   "tableColumnId": 157930422,
+   "format": {}
+  },
+  {
+   "id": 608668204,
+   "name": "Right Side Block Face ID",
+   "dataTypeName": "number",
+   "fieldName": "r_blockfaceid",
+   "position": 30,
+   "renderTypeName": "number",
+   "tableColumnId": 157930423,
+   "format": {}
+  },
+  {
+   "id": 608668205,
+   "name": "Average Travel Time",
+   "dataTypeName": "number",
+   "fieldName": "avgtravtime",
+   "position": 31,
+   "renderTypeName": "number",
+   "tableColumnId": 157930424,
+   "format": {}
+  },
+  {
+   "id": 608668206,
+   "name": "Roadway Jurisdiction",
+   "dataTypeName": "text",
+   "fieldName": "rwjurisdiction",
+   "position": 32,
+   "renderTypeName": "text",
+   "tableColumnId": 157930425,
+   "format": {}
+  },
+  {
+   "id": 608668207,
+   "name": "NOMINALDIR",
+   "dataTypeName": "text",
+   "fieldName": "nominaldir",
+   "position": 33,
+   "renderTypeName": "text",
+   "tableColumnId": 157930426,
+   "format": {}
+  },
+  {
+   "id": 608668208,
+   "name": "ACCESSIBLE",
+   "dataTypeName": "text",
+   "fieldName": "accessible",
+   "position": 34,
+   "renderTypeName": "text",
+   "tableColumnId": 157930427,
+   "format": {}
+  },
+  {
+   "id": 608668209,
+   "name": "NONPED",
+   "dataTypeName": "text",
+   "fieldName": "nonped",
+   "position": 35,
+   "renderTypeName": "text",
+   "tableColumnId": 157930428,
+   "format": {}
+  },
+  {
+   "id": 608668210,
+   "name": "Borough Code",
+   "dataTypeName": "text",
+   "fieldName": "boroughcode",
+   "position": 36,
+   "renderTypeName": "text",
+   "tableColumnId": 157930429,
+   "format": {}
+  },
+  {
+   "id": 608668211,
+   "name": "Borough Indicator",
+   "dataTypeName": "text",
+   "fieldName": "borough_indicator",
+   "position": 37,
+   "renderTypeName": "text",
+   "tableColumnId": 157930430,
+   "format": {}
+  },
+  {
+   "id": 608668212,
+   "name": "Segloc Status",
+   "dataTypeName": "text",
+   "fieldName": "seglocstatus",
+   "position": 38,
+   "renderTypeName": "text",
+   "tableColumnId": 157930431,
+   "format": {}
+  },
+  {
+   "id": 608668213,
+   "name": "San District Inc",
+   "dataTypeName": "text",
+   "fieldName": "sandist_ind",
+   "position": 39,
+   "renderTypeName": "text",
+   "tableColumnId": 157930432,
+   "format": {}
+  },
+  {
+   "id": 608668214,
+   "name": "Left Side Subset",
+   "dataTypeName": "text",
+   "fieldName": "lsubsect",
+   "position": 40,
+   "renderTypeName": "text",
+   "tableColumnId": 157930433,
+   "format": {}
+  },
+  {
+   "id": 608668215,
+   "name": "Right Side Subset",
+   "dataTypeName": "text",
+   "fieldName": "rsubsect",
+   "position": 41,
+   "renderTypeName": "text",
+   "tableColumnId": 157930434,
+   "format": {}
+  },
+  {
+   "id": 608668216,
+   "name": "Continuous Parity Flag",
+   "dataTypeName": "text",
+   "fieldName": "continuous_parity_flag",
+   "position": 42,
+   "renderTypeName": "text",
+   "tableColumnId": 157930435,
+   "format": {}
+  },
+  {
+   "id": 608668217,
+   "name": "Twisted Parity Flag",
+   "dataTypeName": "text",
+   "fieldName": "twisted_parity_flag",
+   "position": 43,
+   "renderTypeName": "text",
+   "tableColumnId": 157930436,
+   "format": {}
+  },
+  {
+   "id": 608668218,
+   "name": "Posted Speed",
+   "dataTypeName": "number",
+   "fieldName": "posted_speed",
+   "position": 44,
+   "renderTypeName": "number",
+   "tableColumnId": 157930437,
+   "format": {}
+  },
+  {
+   "id": 608668219,
+   "name": "Segment Length",
+   "dataTypeName": "number",
+   "fieldName": "segmentlength",
+   "position": 45,
+   "renderTypeName": "number",
+   "tableColumnId": 157930438,
+   "format": {}
+  },
+  {
+   "id": 608668220,
+   "name": "Street Width",
+   "dataTypeName": "number",
+   "fieldName": "streetwidth",
+   "position": 46,
+   "renderTypeName": "number",
+   "tableColumnId": 157930439,
+   "format": {}
+  },
+  {
+   "id": 608668221,
+   "name": "Street Width IRR",
+   "dataTypeName": "text",
+   "fieldName": "streetwidth_irr",
+   "position": 47,
+   "renderTypeName": "text",
+   "tableColumnId": 157930440,
+   "format": {}
+  },
+  {
+   "id": 608668222,
+   "name": "Special Disaster",
+   "dataTypeName": "text",
+   "fieldName": "special_disaster",
+   "position": 48,
+   "renderTypeName": "text",
+   "tableColumnId": 157930441,
+   "format": {}
+  },
+  {
+   "id": 608668223,
+   "name": "Fire Lane",
+   "dataTypeName": "text",
+   "fieldName": "fire_lane",
+   "position": 49,
+   "renderTypeName": "text",
+   "tableColumnId": 157930442,
+   "format": {}
+  },
+  {
+   "id": 608668224,
+   "name": "CREATED_DATE",
+   "dataTypeName": "date",
+   "fieldName": "created_date",
+   "position": 50,
+   "renderTypeName": "date",
+   "tableColumnId": 157930443,
+   "format": {}
+  },
+  {
+   "id": 608668225,
+   "name": "MODIFIED_DATE",
+   "dataTypeName": "date",
+   "fieldName": "modified_date",
+   "position": 51,
+   "renderTypeName": "date",
+   "tableColumnId": 157930444,
+   "format": {}
+  },
+  {
+   "id": 608668226,
+   "name": "WITHIN_BNDY_DIST",
+   "dataTypeName": "text",
+   "fieldName": "within_bndy_dist",
+   "position": 52,
+   "renderTypeName": "text",
+   "tableColumnId": 157930445,
+   "format": {}
+  },
+  {
+   "id": 608668227,
+   "name": "TRUCK ROUTE TYPE",
+   "dataTypeName": "text",
+   "fieldName": "truck_route_type",
+   "position": 53,
+   "renderTypeName": "text",
+   "tableColumnId": 157930446,
+   "format": {}
+  },
+  {
+   "id": 608668228,
+   "name": "Collection Method",
+   "dataTypeName": "text",
+   "fieldName": "collectionmethod",
+   "position": 54,
+   "renderTypeName": "text",
+   "tableColumnId": 157930447,
+   "format": {}
+  },
+  {
+   "id": 608668229,
+   "name": "FROM_LEVEL_CODE",
+   "dataTypeName": "number",
+   "fieldName": "from_level_code",
+   "position": 55,
+   "renderTypeName": "number",
+   "tableColumnId": 157930448,
+   "format": {}
+  },
+  {
+   "id": 608668230,
+   "name": "TO_LEVEL_CODE",
+   "dataTypeName": "number",
+   "fieldName": "to_level_code",
+   "position": 56,
+   "renderTypeName": "number",
+   "tableColumnId": 157930449,
+   "format": {}
+  },
+  {
+   "id": 608668231,
+   "name": "B5SC",
+   "dataTypeName": "text",
+   "fieldName": "b5sc",
+   "position": 57,
+   "renderTypeName": "text",
+   "tableColumnId": 157930450,
+   "format": {}
+  },
+  {
+   "id": 608668232,
+   "name": "Snow Priority",
+   "dataTypeName": "text",
+   "fieldName": "snow_priority",
+   "position": 58,
+   "renderTypeName": "text",
+   "tableColumnId": 157930451,
+   "format": {}
+  },
+  {
+   "id": 608668233,
+   "name": "JOINID",
+   "dataTypeName": "text",
+   "fieldName": "joinid",
+   "position": 59,
+   "renderTypeName": "text",
+   "tableColumnId": 157930452,
+   "format": {}
+  },
+  {
+   "id": 608668234,
+   "name": "BPHYS_ID",
+   "dataTypeName": "number",
+   "fieldName": "bphys_id",
+   "position": 60,
+   "renderTypeName": "number",
+   "tableColumnId": 157930453,
+   "format": {}
+  },
+  {
+   "id": 608668235,
+   "name": "Cartography Display Level",
+   "dataTypeName": "text",
+   "fieldName": "carto_display_level",
+   "position": 61,
+   "renderTypeName": "text",
+   "tableColumnId": 157930454,
+   "format": {}
+  },
+  {
+   "id": 608668236,
+   "name": "Number Travel Lanes",
+   "dataTypeName": "number",
+   "fieldName": "number_travel_lanes",
+   "position": 62,
+   "renderTypeName": "number",
+   "tableColumnId": 157930455,
+   "format": {}
+  },
+  {
+   "id": 608668237,
+   "name": "Number Park Lanes",
+   "dataTypeName": "number",
+   "fieldName": "number_park_lanes",
+   "position": 63,
+   "renderTypeName": "number",
+   "tableColumnId": 157930456,
+   "format": {}
+  },
+  {
+   "id": 608668238,
+   "name": "Number Total Lane",
+   "dataTypeName": "number",
+   "fieldName": "number_total_lanes",
+   "position": 64,
+   "renderTypeName": "number",
+   "tableColumnId": 157930457,
+   "format": {}
+  },
+  {
+   "id": 608668239,
+   "name": "Pre-Modifier",
+   "dataTypeName": "text",
+   "fieldName": "pre_modifier",
+   "position": 65,
+   "renderTypeName": "text",
+   "tableColumnId": 157930458,
+   "format": {}
+  },
+  {
+   "id": 608668240,
+   "name": "Pre-Directional",
+   "dataTypeName": "text",
+   "fieldName": "pre_directional",
+   "position": 66,
+   "renderTypeName": "text",
+   "tableColumnId": 157930459,
+   "format": {}
+  },
+  {
+   "id": 608668241,
+   "name": "Post Directional",
+   "dataTypeName": "text",
+   "fieldName": "post_directional",
+   "position": 67,
+   "renderTypeName": "text",
+   "tableColumnId": 157930460,
+   "format": {}
+  },
+  {
+   "id": 608668242,
+   "name": "Post Modifier",
+   "dataTypeName": "text",
+   "fieldName": "post_modifier",
+   "position": 68,
+   "renderTypeName": "text",
+   "tableColumnId": 157930461,
+   "format": {}
+  },
+  {
+   "id": 608668243,
+   "name": "Full Street Name",
+   "dataTypeName": "text",
+   "fieldName": "full_street_name",
+   "position": 69,
+   "renderTypeName": "text",
+   "tableColumnId": 157930462,
+   "format": {}
+  },
+  {
+   "id": 608668244,
+   "name": "BIKE TRAFFIC DIRECTION",
+   "dataTypeName": "text",
+   "fieldName": "bike_trafdir",
+   "position": 70,
+   "renderTypeName": "text",
+   "tableColumnId": 157930463,
+   "format": {}
+  },
+  {
+   "id": 608668245,
+   "name": "SHAPE__Length",
+   "dataTypeName": "number",
+   "fieldName": "shape_length",
+   "position": 71,
+   "renderTypeName": "number",
+   "tableColumnId": 157930464,
+   "format": {}
+  },
+  {
+   "id": 608668246,
+   "name": "GlobalID",
+   "dataTypeName": "text",
+   "fieldName": "globalid",
+   "position": 72,
+   "renderTypeName": "text",
+   "tableColumnId": 157930465,
+   "format": {}
+  },
+  {
+   "id": 608668247,
+   "name": "SEGMENT_TYPE",
+   "dataTypeName": "text",
+   "fieldName": "segment_type",
+   "position": 73,
+   "renderTypeName": "text",
+   "tableColumnId": 157930466,
+   "format": {}
+  },
+  {
+   "id": 608668248,
+   "name": "SEGMENT_TYPE_VALUE",
+   "dataTypeName": "text",
+   "fieldName": "segment_type_value",
+   "position": 74,
+   "renderTypeName": "text",
+   "tableColumnId": 157930467,
+   "format": {}
+  },
+  {
+   "id": 608668249,
+   "name": "STREET NAME",
+   "dataTypeName": "text",
+   "fieldName": "street_name",
+   "position": 75,
+   "renderTypeName": "text",
+   "tableColumnId": 157930468,
+   "format": {}
+  },
+  {
+   "id": 608668250,
+   "name": "Street Name Label",
+   "dataTypeName": "text",
+   "fieldName": "stname_label",
+   "position": 76,
+   "renderTypeName": "text",
+   "tableColumnId": 157930469,
+   "format": {}
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "metadata": {
+  "attachments": [
+   {
+    "filename": "Centerline.pdf",
+    "assetId": "4cff63bb-aeb0-4ca3-adb5-d6027dc133d5",
+    "name": "Centerline.pdf"
+   }
+  ],
+  "custom_fields": {
+   "Update": {
+    "Automation": "Yes",
+    "Date Made Public": "6/19/2014",
+    "Update Frequency": "Weekly"
+   },
+   "Dataset Information": {
+    "Agency": "Office of Technology and Innovation (OTI)"
+   }
+  },
+  "rowLabel": "single line representation of New York City street",
+  "availableDisplayTypes": [
+   "table",
+   "fatrow",
+   "page"
+  ]
+ },
+ "owner": {
+  "id": "5fuc-pqz2",
+  "displayName": "NYC OpenData",
+  "profileImageUrlLarge": "/api/users/5fuc-pqz2/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/5fuc-pqz2/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/5fuc-pqz2/profile_images/TINY",
+  "screenName": "NYC OpenData",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "5fuc-pqz2",
+  "displayName": "NYC OpenData",
+  "profileImageUrlLarge": "/api/users/5fuc-pqz2/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/5fuc-pqz2/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/5fuc-pqz2/profile_images/TINY",
+  "screenName": "NYC OpenData",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "centerline"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}
